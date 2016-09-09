@@ -3,5 +3,9 @@
  */
 
 if (window.location.protocol != "https:"){
-    //window.location.href = "https://" + window.location.hostname;
+    window.location.href = "https://" + window.location.hostname;
+}
+
+if (typeof jQuery === 'undefined'){
+    throw new Error('Before required jQuery\'s library.')
 }
