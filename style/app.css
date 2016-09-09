@@ -26,16 +26,16 @@ body {
     color: #E3685A;
 }
 
-.selection {
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.selection .title {
+.section .title {
     text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
 }
-.selection .title .fa {
+.section .title .fa {
     font-size: 15px;
     color: #E3685A;
 }
