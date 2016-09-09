@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+    background: #EAEAEA;
+
+    font-family: 'Satisfy', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::selection {
+    background: #EEE;
+    color: #E3685A;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection .title {
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
+}
