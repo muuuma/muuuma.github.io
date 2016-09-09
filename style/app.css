@@ -7,7 +7,8 @@ body, html {
 
     position: relative;
 
-    background: #EAEAEA;
+    background: #FFF;
+    color: #C9C9C9;
 
     font-family: 'Satisfy', cursive;
 }
@@ -16,6 +17,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: context-menu;
 }
 
 ::selection {
@@ -31,4 +34,8 @@ body {
 
 .selection .title {
     text-shadow: 0 1px 1px rgba(255, 255, 255, .8);
+}
+.selection .title .fa {
+    font-size: 15px;
+    color: #E3685A;
 }
